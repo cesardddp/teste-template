@@ -16,10 +16,10 @@ echo "Description: $description";
 
 echo "Renaming project..."
 
-original_author="author_name"
-original_name="project_name"
-original_urlname="project_urlname"
-original_description="project_description"
+original_author="cesardddp"
+original_name="teste_template"
+original_urlname="teste-template"
+original_description="Awesome teste_template created by cesardddp"
 # for filename in $(find . -name "*.*") 
 for filename in $(git ls-files) 
 do
@@ -30,9 +30,9 @@ do
     echo "Renamed $filename"
 done
 
-mv project_name $name
+mv teste_template $name
 
 # This command runs only once on GHA!
-if [ -f .github/workflows/project_name.yml ]; then
+if [ -f .github/workflows/teste_template.yml ]; then
     mv .github/workflows/rename_project.yml .github/workflows/rename_project.yml.disabled
 fi

@@ -1,7 +1,7 @@
 """
-project_name base module.
+teste_template base module.
 
-This is the principal module of the project_name project.
+This is the principal module of the teste_template project.
 here you put your main classes and objects.
 
 Be creative! do whatever you want!
